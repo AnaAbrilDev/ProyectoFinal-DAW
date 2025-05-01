@@ -67,7 +67,7 @@ La plataforma permite la gestión completa de procesos de selección: desde la c
    Accede a la app desde: http://localhost:3000
    El backend estará disponible en: http://localhost:8080
 
-   **Funcionalidades Clave**
+###Funcionalidades Clave
 - Sistema de autenticación y autorización con roles (JWT)
 
 - CRUD completo de usuarios, candidatos y procesos de selección
