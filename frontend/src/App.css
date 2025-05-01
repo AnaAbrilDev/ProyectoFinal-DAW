@@ -1,0 +1,78 @@
+/* Estilo general del cuerpo de la página */
+/* Define el color de fondo, el color del texto y la fuente general para todo el documento */
+body {
+  background-color: #e6f2ff !important;
+  color: #343a40;
+  font-family: "Arial", sans-serif;
+}
+
+/* Navbar - Estilos de la barra de navegación */
+.navbar {
+  padding: 15px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+/* Estilos para los enlaces de la barra de navegación */
+.nav-link {
+  font-size: 1rem;
+  transition: color 0.3s ease-in-out; /* Transición suave al cambiar de color */
+}
+
+.nav-link:hover {
+  color: #007bff !important;
+}
+
+.navbar-nav .nav-link {
+  padding: 0 20px !important; 
+}
+
+/* Botón de Logout */
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 1200px;
+}
+
+/* Ajustes para botones */
+.btn {
+  font-size: 0.95rem;
+  padding: 8px 15px;
+}
+
+/* Tarjetas */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Formularios */
+.form-control {
+  border-radius: 8px;
+}
+
+/* Espaciado */
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+footer {
+  width: 100%;
+}
