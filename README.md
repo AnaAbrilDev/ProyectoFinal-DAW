@@ -60,6 +60,7 @@ La plataforma permite la gestión completa de procesos de selección: desde la c
    mvn spring-boot:run
    
 3. **Frontend**
+   ```bash
    cd frontend
    npm install
    npm start
